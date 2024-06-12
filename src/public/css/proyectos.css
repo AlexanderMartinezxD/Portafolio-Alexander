@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2{
+    color: black;
+}
+
+.titulo{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 0 0 ;
+    font-size: 16px;
+
+}
+
+.contenedor-section1{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5% 10%;
+    justify-content: center;
+}
+
+.card-container{
+    width: 220px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 10px;
+    position: relative;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.card-container:hover{
+    transform: rotate(3deg);
+    
+}
+
+.tres-puntos{
+    padding: 0 0 0 5%;
+    background: linear-gradient(to right, rgb(37, 189, 161), rgb(118, 100, 185));
+    border-radius: 5px 5px 0 0;
+}
+
+.tres-puntos svg{
+    width: 15px;
+    height: 15px;
+}
+
+.container-img-desk{
+    width: 100%;
+    height: 87%;
+}
+.container-img-desk img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-img-tablet{
+    width: 80px;
+    height:110px;
+    border: 4px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 38px;
+    left: 160px;
+    background: linear-gradient(to right, rgb(37, 189, 161), rgb(118, 100, 185));
+
+}
+
+.container-img-tablet img{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+   
+}
+
+.un-punto{
+    background: linear-gradient(to right, rgb(37, 189, 161), rgb(118, 100, 185));
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.un-punto svg{
+    width: 14px;
+    height: 14px;
+}
+
+.informacion{
+    padding: 5% 0 0 0 ;
+    text-align: center;
+}
+
+.informacion h2{
+    color: white;
+}
+
+.informacion h4{
+    padding: 3% 0 0 0 ;
+    color: white;
+}

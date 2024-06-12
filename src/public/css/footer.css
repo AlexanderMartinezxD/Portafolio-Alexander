@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+    bottom: 0;
+    
+}
+
+.container-footer{
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 7px 0px;
+
+
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: 1s ease all;
+}
+
+.github:hover {
+    scale: 1.2;
+}
+.github h2:hover{
+    color:  rgb(37, 189, 161);
+    transition: 1s;
+}
+
+.github svg{
+    width: 15px;
+    height: 15px;
+    fill: white;
+    margin-right: 5px;
+}
+
+
+.container-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.container-footer a h2{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.copyright p{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: "PT Sans", sans-serif;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease all;
+}
+
+.linkedin:hover {
+    scale: 1.2;
+}
+
+.linkedin h2:hover{
+    color:  rgb(37, 189, 161);
+    transition: 1s;
+
+}
+
+.linkedin svg{
+    width: 15px;
+    height: 15px;
+    fill: white;
+    margin-right: 5px;
+}
+
+
+
+
+
