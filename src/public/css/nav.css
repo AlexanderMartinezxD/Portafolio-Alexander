@@ -20,7 +20,10 @@
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0,9);
 }
 
-
+.nav ul:not(.sidebar) li a img {
+    width: 50px;
+    height: 50px;
+}
 
 nav ul{
     width: 100%;

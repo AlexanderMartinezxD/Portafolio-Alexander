@@ -4,17 +4,13 @@
     box-sizing: border-box;
 }
 
-
-h2{
-    color: black;
-}
-
 .titulo{
-    background-color: aqua;
+    background-color: black;
     display: flex;
     justify-content: center;
     padding: 5% 0 0 0 ;
     font-size: 16px;
+    color: white;
 
 }
 
@@ -29,6 +25,11 @@ h2{
     justify-content: center;
 }
 
+.contenedor-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .card-container{
     width: 220px;
     height: 150px;
@@ -37,6 +38,7 @@ h2{
     position: relative;
     transition: 1s ease;
     cursor: pointer;
+    
 }
 
 .card-container:hover{
@@ -109,9 +111,43 @@ h2{
 
 .informacion h2{
     color: white;
+    font-style:inherit;
+    padding: 0 5% 0 0 ;
 }
 
 .informacion h4{
-    padding: 3% 0 0 0 ;
+    padding: 2% 0 0 0 ;
     color: white;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 200;
 }
+
+.link-navegacion{
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.link-navegacion a{
+    width: 40%;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1% 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+
+}
+
+.link-navegacion a:hover {
+    background-color: rgb(37, 189, 161);
+    box-shadow: 0 6px 20px rgba(37, 189, 161, 0.9);
+    scale: 1.2;
+}
+
+
+
+
